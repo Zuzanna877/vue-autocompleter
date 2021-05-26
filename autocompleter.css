@@ -1,0 +1,97 @@
+
+.results .vue-autocompleter .cities{
+    display: none;
+}
+.home .resultPage {
+    display:none;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.results .s-box{
+    width: 580px;
+    margin: 0px auto;
+	position: relative;
+	margin-top: -8px;
+	text-align: center;
+}
+
+.home .s-box {
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: -8px;
+	text-align: center;
+}
+.s-box .search_input {
+	display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.s-box  .search_input:hover {
+	border: 1px solid #fff;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 
+				0 0 2px rgba(0, 0, 0, 0.05),
+				0 0 3px rgba(0, 0, 0, 0.05),
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05), 
+				0 0 4px rgba(0, 0, 0, 0.05), 
+				0 0 5px rgba(0, 0, 0, 0.05)
+}
+
+.vue-autocompleter .cities{
+
+	width: 640px;
+	font-size: 16px;
+	list-style: none;
+	margin-left: 0;
+	line-height: 25px;
+	font-size: 15px;
+	list-style: none;
+    display: static;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	border-radius: 10px;
+  }
+ 
+  .vue-autocompleter .cities li
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+	margin-left: 20px;
+	text-align: left;
+	height: 35px;
+	margin-top: 10px;
+}
+.HighBack{
+    background-color: #dfe1e5;
+}
+.vue-autocompleter .cities .podpowiedzi{
+	font-weight: bold;
+	cursor: pointer;
+  }
+  .vue-autocompleter .cities .highlight {
+	font-weight: lighter;
+  }
+.vue-autocompleter li:hover,
+.vue-autocompleter li:focus 
+{
+    box-shadow: 0 0 0.3em 0.1em #d9d9d9;
+}
